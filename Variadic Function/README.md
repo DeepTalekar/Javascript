@@ -13,4 +13,4 @@ it does have its issues:
 # Using the rest parameter
 
 Fortunately, with the addition of the rest parameter, you can rewrite the `sum()` function to read more clearly.
-This version of the `sum()` function is both more concise and is easier to read. Also, notice the **_for...in_** loop has been replaced with the new **for…of loop.**
+This version of the `sum()` function is both **more concise** and is **easier to read**. Also, notice the **_for...in_** loop has been replaced with the new **for…of loop.**
