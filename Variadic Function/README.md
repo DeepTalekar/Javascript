@@ -5,7 +5,12 @@ In previous versions of JavaScript, this type of function would be handled using
 If we look at the implementation of our `sum()` function, then you’ll see how the arguments object could be used to handle the variable amount of numbers being passed to it.
 it does have its issues:
 
- 1. If you look at the definition for the sum() function, it doesn’t have any parameters.
-    * This is misleading because we know the sum() function can handle an indefinite amount of arguments.
+ 1. If you look at the definition for the `sum()` function, it doesn’t have any parameters.
+    * This is misleading because we know the `sum()` function can handle an indefinite amount of arguments.
  2. It can be hard to understand
     - If you’ve never used the arguments object before, then you would most likely look at this code and wonder where the arguments object is even coming from. Did it appear out of thin air? It certainly looks that way.
+
+# Using the rest parameter
+
+Fortunately, with the addition of the rest parameter, you can rewrite the `sum()` function to read more clearly.
+This version of the `sum()` function is both more concise and is easier to read. Also, notice the **_for...in_** loop has been replaced with the new **for…of loop.**
